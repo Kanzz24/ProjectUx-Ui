@@ -1,0 +1,194 @@
+body {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/57/715/636/technology-black-background-wallpaper-preview.jpg');
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F8F8FF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 420px;
+    height: 720px;
+    background: #212121;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: 15px 10px 15px;
+}
+
+#user-men {
+    font-size: 6rem;
+    margin: 10px 45%;
+    color: rgb(205, 205, 205);
+}
+
+.welcome-heading {
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(224, 224, 224);
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.dkp-heading {
+    text-transform: uppercase;
+}
+
+.dtn-container {
+    margin: 40px 20px;
+}
+
+.dtn-container i {
+    margin-right: 5px;
+}
+
+.Social-media-login {
+    text-decoration: none;
+    padding: 12px 20px;
+    background-color: #39569c;
+    color: #fff;
+    border-radius: 30px;
+    margin-left: 37px;
+    font-size: 1.2rem;
+}
+
+.Social-media-login1 {
+    text-decoration: none;
+    padding: 12px 20px;
+    background-color: #B22222;
+    color: #fff;
+    border-radius: 20px;
+    margin: 20px 29px;
+    font-size: 1.2rem;
+}
+
+.underline-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.underline {
+    width: 130px;
+    height: 5px;
+    background-color: rgb(161, 161, 161);
+}
+
+.or-heading {
+    text-align: center;
+    margin-top: -10px;
+    padding: 0 30px;
+    font-size: 20px;
+    color: rgb(181, 181, 181);
+}
+
+.input-box {
+    width: 300px;
+    height: 50px;
+    margin: 5px 55px 25px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    box-shadow: 7px 4px 2px;
+    font-size: 15px;
+    margin-top: -13px;
+}
+
+.input-box1 {
+    width: 300px;
+    height: 50px;
+    margin: 5px 55px 30px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    box-shadow: 7px 4px 8px;
+    font-size: 15px;
+}
+
+.toggle-password {
+    position: absolute; /* ทำให้ปุ่มอยู่ในตำแหน่งที่แน่นอน */
+    right: 80px; /* ระยะห่างจากขอบขวาของ .input-box1 */
+    top: 47.5%; /* ตั้งอยู่กลางในแนวตั้ง */
+    transform: translateY(-50%); /* ปรับให้กลางในแนวตั้ง */
+    background: none; /* ทำให้พื้นหลังของปุ่มไม่มี */
+    border: none; /* ไม่ให้มีขอบ */
+    color: #212121; /* สีของข้อความ */
+    cursor: pointer; /* เปลี่ยนเคอร์เซอร์เป็นมือเมื่อชี้ไปที่ปุ่ม */
+    font-size: 0.9rem; /* ขนาดฟอนต์ */
+    padding: 10; /* ไม่มีการ padding */
+    font-family: sans-serif;
+    font-style: oblique;
+}
+
+.toggle-password:hover {
+    color: #ffffff; /* เปลี่ยนสีเมื่อเลื่อนเมาส์ไปที่ปุ่ม */
+}
+
+.login-btn {
+    margin: 20px 105px;
+    padding: 10px 80px;
+    margin-top: 20px;
+    background-image: linear-gradient(#01579b, #b3e5fc);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.forget-password {
+    display: block;
+    margin: 25px auto;
+    margin: 20px 1px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 0px -10px;
+    color: #e0e0e0;
+}
+
+.Register-now {
+    position: absolute;
+    margin-top: -30px;
+    font-size: 0.9rem;
+    padding: 20px 160px;
+    font-weight: bold;
+    color: #7e7e7e;
+    
+}
+
+.links {
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    background: #6bafe2;
+    margin: 15px auto;
+    margin-top: 33px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 7px 6px 10px;
+    cursor: pointer; /* เปลี่ยนเคอร์เซอร์เป็นมือเมื่อชี้ไปที่ปุ่ม */
+}
+
+.links img {
+    width: 30px;
+    height: 30px;
+}
+
+.links p {
+    color: white;
+}
